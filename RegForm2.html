@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reg Form</title>
+
+    <style>
+        .container1{
+            /* border: 2px solid blue; */
+            width: 360px;
+            border-radius: 10px;
+            background-color: white;
+           float: right;
+            margin-top: 50px;
+            
+            
+         } 
+        .container2{
+            margin: 60px;
+            /* border: 2px solid yellow; */
+            width: 240px; 
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .social  button
+        {
+            margin: 1px;
+            width: 100%;   
+        }
+
+        .form {
+            /* border: 2px solid brown;*/    
+        }
+      
+        .form input{
+            padding-right: 70px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            border: 1px solid lightgray;
+        }
+
+        .form button{
+            /* padding-right: 170px; */
+            margin-top: 10px;
+            background-color: green;
+            color: white;
+            border-radius: 5px;
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border: 1px solid green;  
+        }
+         
+        #or{
+            /* border: 2px solid green; */
+            text-align: center;
+            
+           
+        }
+        #agree{
+            text-align: center;
+        }
+
+        #login{
+            text-align: end;
+            font-size: 15px;
+        }
+        a[target] {
+            color: green;
+        }
+        body{
+            background-color: black;    
+        }
+        #mail{
+            text-align: center;
+        }
+       
+      
+        
+    </style>
+
+</head>
+<body>
+    <div class="container1">
+        <div  class="container2">
+            <h2>Sign Up</h2>
+            <p id="login">Already have an account? <a href="#" target="_blank">Log in</a></p>
+            <div class="social" >
+                <table width="100%">
+                    <tr>
+                        <td><button >Google</button></td>
+                        <td><button>Facebook</button></td>
+                    </tr>
+                    <tr>
+                        <td><button>Githu</button></td>
+                        <td><button>Feide</button></td>
+                    </tr>
+                </table>   
+            </div>
+           
+            <p id="or">OR</p>
+           
+            <div class="form">
+                <input type="text" placeholder="email"><br>
+                <input type="password" placeholder="password"><br>
+                <input type="text" placeholder="first name" ><br>
+                <input type="last name" placeholder="last name"><br>
+
+                <button>Sign Up</button>
+
+            </div>
+
+            <p id="agree">By signing up you agree to <a  href="">Terms of Service</a> and <a href="">Privacy Policy</a></p>
+            <p id="mail"><input type="checkbox"><label >Email me with news and updates</label></p>
+        </div>
+    </div>
+</body>
+</html>
